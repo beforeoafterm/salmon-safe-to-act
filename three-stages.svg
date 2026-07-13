@@ -1,0 +1,64 @@
+<svg viewBox="0 0 860 440" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8333f3"/>
+    </marker>
+    <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#311754"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="858" height="438" rx="16" fill="#ffffff" stroke="#e3e3e3"/>
+  <text x="32" y="46" font-size="20" font-weight="700" fill="#231f20">Before the chat AI touches money</text>
+  <text x="32" y="68" font-size="12.5" fill="#6b6b6f">The risk compounds in three stages; most teams design for stage 1</text>
+
+  <!-- risk arrow -->
+  <path d="M 60 100 L 790 100" stroke="#ffd84d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 770 92 L 792 100 L 770 108" fill="none" stroke="#ffd84d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="426" y="92" font-size="11.5" font-weight="700" fill="#a8811a" text-anchor="middle">RISK COMPOUNDS</text>
+
+  <!-- three stages -->
+  <rect x="32" y="118" width="248" height="128" rx="12" fill="#f5f7f9" stroke="#e3e3e3"/>
+  <text x="52" y="148" font-size="15" font-weight="700" fill="#311754">1 · Answering</text>
+  <text x="52" y="172" font-size="12" fill="#4b4b50">Explains balances, due dates,</text>
+  <text x="52" y="189" font-size="12" fill="#4b4b50">products. Today's build.</text>
+  <text x="52" y="216" font-size="12" font-weight="600" fill="#8333f3">Failure = wrong info.</text>
+  <text x="52" y="233" font-size="12" fill="#6b6b6f">Embarrassing, recoverable.</text>
+
+  <rect x="306" y="118" width="248" height="128" rx="12" fill="#f5f7f9" stroke="#8333f3"/>
+  <text x="326" y="148" font-size="15" font-weight="700" fill="#311754">2 · Promising</text>
+  <text x="326" y="172" font-size="12" fill="#4b4b50">Negotiates payment dates,</text>
+  <text x="326" y="189" font-size="12" fill="#4b4b50">waivers, restructuring. Collections.</text>
+  <text x="326" y="216" font-size="12" font-weight="600" fill="#8333f3">Failure = a commitment</text>
+  <text x="326" y="233" font-size="12" fill="#6b6b6f">the bank is arguably bound to.</text>
+
+  <rect x="580" y="118" width="248" height="128" rx="12" fill="#311754"/>
+  <text x="600" y="148" font-size="15" font-weight="700" fill="#ffd84d">3 · Acting</text>
+  <text x="600" y="172" font-size="12" fill="#e8e0f5">Moves money, adjusts limits,</text>
+  <text x="600" y="189" font-size="12" fill="#e8e0f5">files disputes. The roadmap.</text>
+  <text x="600" y="216" font-size="12" font-weight="600" fill="#ffd84d">Failure = a transaction,</text>
+  <text x="600" y="233" font-size="12" fill="#e8e0f5">and a regulator conversation.</text>
+
+  <path d="M 280 182 L 304 182" stroke="#311754" stroke-width="1.8" marker-end="url(#arrD)"/>
+  <path d="M 554 182 L 578 182" stroke="#311754" stroke-width="1.8" marker-end="url(#arrD)"/>
+
+  <!-- two rails -->
+  <rect x="32" y="282" width="400" height="112" rx="12" fill="#8333f3"/>
+  <text x="52" y="312" font-size="14.5" font-weight="700" fill="#ffffff">Adversarial eval gate, per release</text>
+  <text x="52" y="335" font-size="12" fill="#eadcfd">Red-team agents attack with customer-side input: injection</text>
+  <text x="52" y="352" font-size="12" fill="#eadcfd">in chat, social engineering, multi-turn manipulation, Taglish</text>
+  <text x="52" y="369" font-size="12" fill="#eadcfd">edge cases. Scored by stage; pass rate gates the release.</text>
+  <text x="52" y="386" font-size="11.5" font-weight="600" fill="#ffd84d">Transcripts archive as audit evidence</text>
+
+  <rect x="460" y="282" width="368" height="112" rx="12" fill="#f5f7f9" stroke="#8333f3"/>
+  <text x="480" y="312" font-size="14.5" font-weight="700" fill="#311754">Permissioning for the graduation to act</text>
+  <text x="480" y="335" font-size="12" fill="#4b4b50">Typed, scoped tools per action: per-customer mandates,</text>
+  <text x="480" y="352" font-size="12" fill="#4b4b50">hard caps, idempotency keys, human approval above</text>
+  <text x="480" y="369" font-size="12" fill="#4b4b50">thresholds. Every call emits a structured audit event.</text>
+  <text x="480" y="386" font-size="11.5" font-weight="600" fill="#8333f3">The compliance trail becomes a byproduct</text>
+
+  <path d="M 232 280 L 232 258 L 430 258 L 430 248" stroke="#8333f3" stroke-width="1.8" fill="none" marker-end="url(#arrP)"/>
+  <path d="M 644 280 L 644 258 L 704 258 L 704 248" stroke="#8333f3" stroke-width="1.8" fill="none" marker-end="url(#arrP)"/>
+
+  <text x="32" y="420" font-size="11.5" fill="#9a9aa0">Outside-in sketch from public materials and job postings · not affiliated with Salmon · July 2026</text>
+</svg>
